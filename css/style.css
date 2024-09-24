@@ -34,35 +34,53 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
-nav#main-navbar ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+#main-navbar {
+    background-color: blue;
+}
+
+#navbar-container {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+#main-navbar {
     overflow: hidden;
 }
 
-nav#main-navbar ul li {
+#main-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#main-navbar ul li {
     float: left;
-    margin: 0 15px;
+    /* margin: 0 15px; */
 }
 
-nav#main-navbar ul li a {
+#main-navbar ul li a {
     display: block;
-    background-color: red;
+    padding: 10px 20px;
     color: #fff;
-    font-weight: bold;
     text-decoration: none;
-    text-align: center;
-    width: 100px;
-    padding: 10px 0px 8px 0px;
-    border-radius: 4px;
+    /* background-color: red; */
+    /* font-weight: bold; */
+    /* text-align: center; */
+    /* width: 100px; */
+    /* border-radius: 4px; */
 }
 
-nav#main-navbar ul li a:hover {
+#main-navbar ul li a:hover {
     background-color: #800;
     color: yellow;
     border-radius: 20px;
 }
+
+
+/* TODO: content-wrapper */
 
 .clear {
     clear: both;
