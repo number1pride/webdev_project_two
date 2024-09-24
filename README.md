@@ -1,5 +1,10 @@
 # Project II -- Add CSS
 
+## My notes
+
+- [Project Repo](https://github.com/number1pride/webdev_project_two)
+- [Project Live Link](https://number1pride.github.io/webdev_project_two/)
+
 ## Project Description
 
 For this project, you will add CSS to the 3-page website you built for project 1.
