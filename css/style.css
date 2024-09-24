@@ -8,25 +8,45 @@
         "wdth" 100;
 }
 
+#main-header {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#87e0fd+0,53cbf1+40,05abe0+100;Blue+3D+%23+16 */
+    background: linear-gradient(to bottom, #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#my-main-title {
+    font-size: 30px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#header-container {
+    position: relative;
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
 }
 
-nav#horz1 ul {
+nav#main-navbar ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     overflow: hidden;
 }
 
-nav#horz1 ul li {
+nav#main-navbar ul li {
     float: left;
     margin: 0 15px;
 }
 
-nav#horz1 ul li a {
+nav#main-navbar ul li a {
     display: block;
     background-color: red;
     color: #fff;
@@ -38,7 +58,7 @@ nav#horz1 ul li a {
     border-radius: 4px;
 }
 
-nav#horz1 ul li a:hover {
+nav#main-navbar ul li a:hover {
     background-color: #800;
     color: yellow;
     border-radius: 20px;
