@@ -74,14 +74,20 @@ body {
 }
 
 #main-navbar ul li a:hover {
-    background-color: #800;
-    color: yellow;
-    border-radius: 20px;
+    text-decoration: underline;
+    /* background-color: #000; */
+    /* color: yellow; */
+    /* border-radius: 20px; */
 }
-
-
-/* TODO: content-wrapper */
 
 .clear {
     clear: both;
+}
+
+#content-wrapper {
+    background-color: #aaa;
+}
+
+#main-navbar #onpage {
+    text-decoration: underline;
 }
